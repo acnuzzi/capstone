@@ -1,0 +1,48 @@
+/* Universal Propertys */
+html {
+  text: 16px;
+}
+
+.container {
+  width: 1260px;
+  display: block;
+}
+/* End of Unervarsel */
+
+/* Begging of Banner */
+header {
+  display: block;
+  z-index: 5;
+  margin: 0 auto;
+  border: solid;
+  border-color: orange;
+}
+
+#banner {
+  display: flex;
+  -webkit- display: flex;
+  justify-content: space-between;
+  -webkit- justify-content: space-between;
+  align-items: center;
+  -webkit- align-items: center;
+  padding: 1rem;
+  border: solid;
+  border-color: orange;
+}
+
+.logo {
+  display: flex;
+  -webkit- display: flex;
+  -ms- display: flex;
+  flex-direction: row;
+  -webkit- flex-direction: row;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border: solid;
+  border-color: orange;
+}
+
+a.link {
+  padding-left: 1rem;
+}
