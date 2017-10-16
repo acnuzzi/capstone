@@ -4,16 +4,17 @@ html {
 }
 
 .container {
+  display: flex;
   width: 1260px;
-  display: block;
+  border: solid;
+  margin: 0 auto;
 }
 /* End of Unervarsel */
 
 /* Begging of Banner */
 header {
-  display: block;
+  display: flex;
   z-index: 5;
-  margin: 0 auto;
   border: solid;
   border-color: orange;
 }
