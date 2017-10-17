@@ -4,10 +4,9 @@ html {
 }
 
 .container {
-  display: flex;
-  width: 1260px;
-  border: solid;
+  width: 1060px;
   margin: 0 auto;
+  border: solid;
 }
 /* End of Unervarsel */
 
@@ -19,7 +18,7 @@ header {
   border-color: orange;
 }
 
-#banner {
+#header {
   display: flex;
   -webkit- display: flex;
   justify-content: space-between;
@@ -34,7 +33,6 @@ header {
 .logo {
   display: flex;
   -webkit- display: flex;
-  -ms- display: flex;
   flex-direction: row;
   -webkit- flex-direction: row;
   align-items: center;
@@ -46,4 +44,52 @@ header {
 
 a.link {
   padding-left: 1rem;
+}
+
+/*Section for banner */
+section {
+  display: flex;
+}
+
+#banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ban_con {
+  display: flex;
+  border: solid;
+  padding: 0 1.5rem;
+}
+
+.ban_con.right {
+  flex-direction: column;
+  border: solid;
+  font-weight: bold;
+  padding-left: 0rem;
+}
+
+.ban_con img {
+  height: 30rem;
+  width: 35rem;
+}
+
+.ban_con.right span h1 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.ban_con.right span h4 {
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.btn {
+  font-size: 1rem;
+  text-align: center;
+  border: solid;
+  background-color: blue;
+  padding: .5rem 0;
 }
