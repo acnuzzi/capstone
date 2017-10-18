@@ -4,9 +4,10 @@ html {
 }
 
 .container {
-  width: 1060px;
+  width: 1160px;
   margin: 0 auto;
   border: solid;
+  border-color: pink;
 }
 /* End of Unervarsel */
 
@@ -47,33 +48,31 @@ a.link {
 }
 
 /*Section for banner */
-section {
-  display: flex;
-}
 
 #banner {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 }
 
-.ban_con {
+.ban_con.left {
   display: flex;
-  border: solid;
-  padding: 0 1.5rem;
+  flex-direction: column;
+  width: 60%;
+  padding: 1.5rem 2rem 1.5rem 2.1rem;
 }
 
 .ban_con.right {
   flex-direction: column;
   border: solid;
   font-weight: bold;
-  padding-left: 0rem;
+  width: 40%;
 }
 
-.ban_con img {
-  height: 30rem;
-  width: 35rem;
+.ban_con.left img {
+  width: 100%;
 }
 
 .ban_con.right span h1 {
@@ -89,7 +88,72 @@ section {
 .btn {
   font-size: 1rem;
   text-align: center;
-  border: solid;
-  background-color: blue;
-  padding: .5rem 0;
+}
+
+/* Banner Section Complete */
+
+/* Orientation Information */
+#jumbo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.orientation {
+  display: flex;
+  flex-direction: column;
+  width: 56.5%;
+  padding: 1.5rem 0rem 1.5rem 2rem;
+  margin-right: 2rem;
+}
+
+.orientation span h1 {
+  padding: 2rem 0 1.5rem 0;
+}
+
+.orientation span h3 {
+  padding: 2rem 0rem 1rem 0rem;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  padding-top: .7rem;
+  border-left: solid;
+  border-color: lightgray;
+  border-width: thin;
+}
+
+.img_con {
+  display: flex;
+  width: 100%;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: lightgray;
+  border-width: thin;
+  margin-bottom: .2rem;
+}
+
+.img_con:hover {
+  background-color: gray;
+}
+
+.margin_con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 1rem;
+}
+
+
+.margin_con img {
+  width: 38%;
+}
+
+.font_con {
+  width: 65%;
+  padding-left: 1rem;
 }
