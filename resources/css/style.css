@@ -9,14 +9,20 @@ html {
   border: solid;
   border-color: pink;
 }
+
+#main-container {
+  position: relative;
+  top: 4.5rem;
+}
+
 /* End of Unervarsel */
 
 /* Begging of Banner */
 header {
-  display: flex;
-  z-index: 5;
-  border: solid;
-  border-color: orange;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
 }
 
 #header {
@@ -27,8 +33,14 @@ header {
   align-items: center;
   -webkit- align-items: center;
   padding: 1rem;
-  border: solid;
-  border-color: orange;
+}
+
+.right.logo {
+  padding-right: 10.5rem;
+}
+
+.left.logo {
+  padding-left: 10rem;
 }
 
 .logo {
@@ -39,8 +51,6 @@ header {
   align-items: center;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  border: solid;
-  border-color: orange;
 }
 
 a.link {
@@ -55,6 +65,7 @@ a.link {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+  background-color: lightgray;
 }
 
 .ban_con.left {
@@ -156,4 +167,80 @@ a.link {
 .font_con {
   width: 65%;
   padding-left: 1rem;
+}
+
+/* End of orientation Information */
+
+/*Start of learning container */
+#learning {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+#learn-header {
+  text-align: center;
+  padding: 2rem 0rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#learn-bot {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 4.6875rem;
+
+}
+
+#learn-top {
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 4.6875rem;
+}
+
+.learn {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  text-align: left;
+}
+
+.learn-img img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -.2rem;
+}
+
+.learn.mid {
+  padding: 0rem 2rem;
+}
+
+.learn-txt {
+  padding: 1rem 0rem 1.5rem 1rem;
+  background-color: white;
+}
+
+.learn-txt h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.learn-txt h2 {
+  margin-top: .5rem;
+  font-size: 1rem;
+}
+
+#force {
+  padding: 1rem 0rem .6rem 1rem;
+  background-color: white;
+}
+
+#force h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#force h2 {
+  margin-top: .5rem;
+  font-size: 1rem;
 }
