@@ -1,18 +1,24 @@
 /* Universal Propertys */
 html {
   text: 16px;
+  background-color: black;
 }
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 
 .container {
   width: 1160px;
   margin: 0 auto;
-  border: solid;
-  border-color: pink;
+  background-color: white;
 }
 
 #main-container {
   position: relative;
-  top: 4.5rem;
+  top: 4.0rem;
 }
 
 /* End of Unervarsel */
@@ -37,6 +43,7 @@ header {
 
 .right.logo {
   padding-right: 10.5rem;
+  font-family: sans-serif;
 }
 
 .left.logo {
@@ -57,6 +64,9 @@ a.link {
   padding-left: 1rem;
 }
 
+#mobile-nav {
+  display: none;
+}
 /*Section for banner */
 
 #banner {
@@ -77,9 +87,9 @@ a.link {
 
 .ban_con.right {
   flex-direction: column;
-  border: solid;
   font-weight: bold;
   width: 40%;
+  font-family: sans-serif;
 }
 
 .ban_con.left img {
@@ -89,16 +99,31 @@ a.link {
 .ban_con.right span h1 {
   font-size: 2rem;
   padding-bottom: 1.5rem;
+  width: 70%;
 }
 
 .ban_con.right span h4 {
   font-size: 1rem;
   padding-bottom: 1.5rem;
+  width: 70%;
 }
 
-.btn {
+.btn span {
+  display: flex;
+  justify-content: center;
   font-size: 1rem;
   text-align: center;
+  width: 70%;
+  padding: .5rem 0;
+  background-color: darkgray;
+}
+
+.btn span:hover {
+  background-color: white;
+}
+
+.btn a:visited {
+  color: red;
 }
 
 /* Banner Section Complete */
@@ -121,6 +146,8 @@ a.link {
 
 .orientation span h1 {
   padding: 2rem 0 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .orientation span h3 {
@@ -132,8 +159,9 @@ a.link {
   flex-direction: column;
   width: 40%;
   height: auto;
-  padding-top: .7rem;
+  padding-top: 1.5rem;
   border-left: solid;
+  border-right: solid;
   border-color: lightgray;
   border-width: thin;
 }
@@ -159,14 +187,26 @@ a.link {
   margin: 1rem 1rem;
 }
 
-
 .margin_con img {
-  width: 38%;
+  width: 30%;
 }
 
 .font_con {
   width: 65%;
   padding-left: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.title-text {
+  font-size: 1rem;
+  padding: .5rem 0;
+}
+
+.title-more a {
+  color: blue;
 }
 
 /* End of orientation Information */
@@ -189,7 +229,6 @@ a.link {
   display: flex;
   flex-direction: row;
   padding: 2rem 4.6875rem;
-
 }
 
 #learn-top {
@@ -203,6 +242,14 @@ a.link {
   flex-direction: column;
   width: auto;
   text-align: left;
+}
+
+#force:hover {
+  background-color: darkgray;
+}
+
+.learn-txt:hover {
+  background-color: darkgray;
 }
 
 .learn-img img {
@@ -244,3 +291,82 @@ a.link {
   margin-top: .5rem;
   font-size: 1rem;
 }
+
+/* Start of Exhibit section */
+
+#thesis {
+  display: flex;
+  flex-direction: column;
+}
+
+#thesis-title {
+  text-align: center;
+  padding: 2rem 0rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#video video {
+  width: 100%;
+}
+
+.thesis-text h1 {
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.thesis-text h2 {
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+}
+
+.img_con.thesis {
+  display: flex;
+  width: 100%;
+  margin-top: 1.5rem;
+  margin-bottom: -1.5rem;
+  border: none;
+}
+
+#thesis-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 73.8%;
+}
+/* End of thesis Exhibit */
+
+/*start of footer */
+#copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+
+/* Media for Mobile layout */
+@media only screen and (max-width: 450px) {
+#nav-link {
+  display: none;
+}
+
+.mobilet.logo {
+  padding-right: 10.5rem;
+  font-family: sans-serif;
+}
+
+.logo {
+  display: flex;
+  -webkit- display: flex;
+  flex-direction: row;
+  -webkit- flex-direction: row;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+a.link {
+  padding-left: 1rem;
+}
+
+  }
