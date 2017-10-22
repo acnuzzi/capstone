@@ -549,7 +549,9 @@ li {
 }
 
 #copyright {
-  display: inline;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
 
-  }
+
+}
