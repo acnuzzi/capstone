@@ -124,7 +124,7 @@ a.link {
 }
 
 .btn a:visited {
-  color: red;
+  color: orange;
 }
 
 /* Banner Section Complete */
@@ -251,7 +251,10 @@ a.link {
   flex-direction: column;
   width: auto;
   text-align: left;
+  margin-left: 2rem;
 }
+
+
 
 #force:hover {
   background-color: darkgray;
@@ -265,10 +268,6 @@ a.link {
   width: 100%;
   height: auto;
   margin-bottom: -.2rem;
-}
-
-.learn.mid {
-  padding: 0rem 2rem;
 }
 
 .learn-txt {
@@ -503,10 +502,11 @@ li {
   margin-bottom: 2rem;
 }
 
-.learn.mid {
-  width: 100%;
-  margin-left: -2rem;
-}
+
+.learn.mid img {
+ width: 100%;
+ margin-right: 1.5rem;
+ }
 
 .learn-mob:hover {
   height: 23.0rem;
