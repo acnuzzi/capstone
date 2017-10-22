@@ -23,7 +23,7 @@ h1 {
 
 /* End of Unervarsel */
 
-/* Begging of Banner */
+/* Begging of header */
 header {
   position: fixed;
   width: 100%;
@@ -167,6 +167,10 @@ a.link {
   border-width: thin;
 }
 
+.img-mobile {
+  display: none;
+}
+
 .img_con {
   display: flex;
   width: 100%;
@@ -236,6 +240,10 @@ a.link {
   display: flex;
   flex-direction: row;
   padding: 0rem 4.6875rem;
+}
+
+.learn-mob span {
+  display: none;
 }
 
 .learn {
@@ -367,7 +375,7 @@ a.link {
 
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
 
 #header {
   padding: 1rem 0;
@@ -389,5 +397,129 @@ a.link {
 li {
   margin-right: 3rem;
 }
+
+/* orientation section */
+
+.container {
+  width: auto;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.ban_con.left {
+  width: 100%;
+}
+
+.ban_con.right {
+  width: 90%;
+}
+
+#banner img {
+  margin-top: -1.3rem;
+}
+.ban_con.right span h1 {
+  width: 100%;
+}
+
+.btn span {
+   width: 100%;
+   margin: auto;
+   margin-bottom: 2rem;
+}
+
+/* orientation Section */
+.orientation.one {
+  display: none;
+}
+
+#info {
+  width: auto;
+
+}
+
+.img-desk {
+  display: none;
+}
+
+.img-mobile {
+  display: block;
+}
+
+.margin_con {
+  flex-direction: column;
+  width: 100%;
+}
+
+.margin_con img {
+  width: 100%;
+  height: 50%;
+}
+
+.font_con {
+  width: 100%;
+  margin-top: 1rem;
+}
+/* Learning Section */
+#learning {
+  background-color: white;
+}
+
+#learn-top {
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+
+#learn-bot {
+  flex-direction: column;
+  align-items: center;
+  margin-top: -2rem;
+  z-index: 0;
+}
+
+.learn-mob span {
+  display: flex;
+  width: 100%;
+  font-size: 2rem;
+  background-color: darkgray;
+  padding: .5rem 0 .5rem .5rem;
+  box-shadow: 5px 5px 1px #888888;
+
+}
+
+.learn-mob {
+  width: 140%;
+  align-items: center;
+  height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.learn.mid {
+  width: 100%;
+  margin-left: -2rem;
+}
+
+.learn-mob:hover {
+  height: 23.0rem;
+  transition: 0s ease-in-out;
+}
+
+.learn {
+  display: none;
+}
+
+.learn-mob:hover .learn {
+  display: block;
+}
+
 
   }
