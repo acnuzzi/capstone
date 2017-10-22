@@ -134,7 +134,6 @@ a.link {
   display: flex;
   flex-direction: row;
   width: 100%;
-
 }
 
 .orientation {
@@ -143,6 +142,10 @@ a.link {
   width: 56.5%;
   padding: 1.5rem 0rem 1.5rem 2rem;
   margin-right: 2rem;
+}
+
+.orientation.one img {
+  height: 20rem;
 }
 
 .orientation span h1 {
