@@ -543,5 +543,13 @@ li {
   width: 100%;
 }
 
+/*footer */
+#copyright a {
+  display: none;
+}
+
+#copyright {
+  display: inline;
+}
 
   }
