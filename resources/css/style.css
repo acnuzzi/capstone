@@ -375,7 +375,7 @@ a.link {
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
 
 #header {
   padding: 1rem 0;
@@ -460,7 +460,7 @@ li {
 }
 
 .margin_con img {
-  width: 100%;
+  width: 80%;
   height: 50%;
 }
 
@@ -519,6 +519,25 @@ li {
 
 .learn-mob:hover .learn {
   display: block;
+}
+
+/* Thesis Container */
+
+#thesis-right {
+  display: none;
+}
+
+.thesis-text {
+  display: none
+}
+
+#video {
+  width: 177%;
+  margin-left: -2rem;
+}
+
+#video video {
+  width: 100%;
 }
 
 
