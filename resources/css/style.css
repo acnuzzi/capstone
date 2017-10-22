@@ -377,7 +377,7 @@ a.link {
 
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 480px) {
 
 #header {
   padding: 1rem 0;
@@ -493,9 +493,9 @@ li {
   width: 100%;
   font-size: 2rem;
   background-color: darkgray;
-  padding: .5rem 0 .5rem .5rem;
+  padding: .8rem 0 .8rem .5rem;
   box-shadow: 5px 5px 1px #888888;
-
+  font-size: 1.5rem;
 }
 
 .learn-mob {
@@ -553,5 +553,8 @@ li {
   margin-bottom: 1rem;
 }
 
+#copyright span {
+  font-size: .8rem;
+}
 
 }
