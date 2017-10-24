@@ -411,6 +411,7 @@ a.link {
 
 #header {
   padding: 1rem 0;
+  background-color: #C4A616;
 }
 
 .left.logo {
@@ -427,7 +428,8 @@ a.link {
 }
 
 li {
-  margin-right: 1rem;
+  margin-right: 3rem;
+  padding-left: 1rem;
 }
 
 
