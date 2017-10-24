@@ -92,7 +92,6 @@ a.link {
   background-color: lightgray;
   background-image: url("../images/banner.jpg");
   background-size: cover;
-
 }
 
 .ban_con.left {
@@ -447,28 +446,37 @@ li {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+  height:25rem;
   background-color: lightgray;
 }
 
 .ban_con.left {
   width: 100%;
+  height: auto;
+
 }
 
 .ban_con.right {
   width: 90%;
+  margin-top: 10rem;
 }
 
 #banner img {
   margin-top: -1.3rem;
 }
+
 .ban_con.right span h1 {
   width: 100%;
 }
 
 .btn span {
-   width: 100%;
-   margin: auto;
+   width: 95%;
    margin-bottom: 2rem;
+   margin-right: 1rem;
+}
+
+.btn span a {
+
 }
 
 /* orientation Section */
@@ -525,7 +533,7 @@ li {
   display: flex;
   width: 100%;
   font-size: 2rem;
-  background-color: darkgray;
+  background-color: #C4A616;
   padding: .8rem 0 .8rem .5rem;
   box-shadow: 5px 5px 1px #888888;
   font-size: 1.5rem;
