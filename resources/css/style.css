@@ -242,7 +242,8 @@ a.link {
 #learning {
   display: flex;
   flex-direction: column;
-  background-color: lightgray;
+  z-index: -1;
+  background-color:  #C4A616;
 }
 
 #learn-header {
