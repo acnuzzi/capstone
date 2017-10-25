@@ -242,7 +242,6 @@ a.link {
 #learning {
   display: flex;
   flex-direction: column;
-  z-index: -1;
   background-color:  #C4A616;
 }
 
@@ -386,7 +385,7 @@ a.link {
 }
 
 /* Media for Mobile layout */
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 980px) {
 
 #header {
     padding: 1.5rem 0;
@@ -403,6 +402,12 @@ a.link {
 #nav-link {
   display: flex;
   margin: auto;
+}
+
+#banner {
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
 
 }
